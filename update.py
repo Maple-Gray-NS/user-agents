@@ -16,7 +16,6 @@ user_agents_file_path = os.path.join(
 _os_field_include_patterns = [
     re.compile(r'^windows nt \d+\.\d+$', flags=re.IGNORECASE),
     re.compile(r'^macintosh$', flags=re.IGNORECASE),
-    re.compile(r'^linux (x86_64|i686)$', flags=re.IGNORECASE),
 ]
 _os_field_exclude_patterns = [
     re.compile(r'\bwindows mobile\b', flags=re.IGNORECASE),
