@@ -43,7 +43,7 @@ def get_latest_user_agents():
     user_agents = []
     base_url = 'https://www.whatismybrowser.com/guides/the-latest-user-agent/'
 
-    for browser in ('chrome', 'firefox', 'safari', 'edge'):
+    for browser in ('chrome', 'firefox', 'safari', 'edge','opera','vivaldi'):
         time.sleep(1)
         response = requests.get(
             ''.join((base_url, browser)),
